@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="classes" >
+  <test  name="Demo">
+  
+    <classes>
+      <class name="Lamdatest.Selenium.DemoDemo"/>
+      <class name="Lamdatest.Selenium.DemoDemo2"/>
+      <class name="Lamdatest.Selenium.DemoDemo3"/>
+      
+    </classes>
+  </test> <!-- Demo  
+  
+  parallel="classes" -->
+</suite> <!-- Suite
+
+       -->
